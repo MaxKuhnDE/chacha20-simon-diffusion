@@ -128,3 +128,7 @@ Beobachtung: Je mehr Runden, desto mehr Bits ändern sich. Im Vergleich zu ChaCh
 ### Prüfung mit dem offiziellen Testvektor
 
 `simon_avalanche.py` wurde mit dem Testvektor für Simon128/128 aus dem Simon-und-Speck-Paper (Beaulieu et al., 2013, https://eprint.iacr.org/2013/404) geprüft. Mit 68 Runden, Schlüssel `0f0e0d0c0b0a0908 0706050403020100` und Klartext `6373656420737265 6c6c657661727420` ergibt sich wie erwartet das Chiffrat `49681b1e1e54fe3f 65aa832af84e0bbc`.
+
+## Entstehung
+
+Der Code ist im Rahmen des Praktikums entstanden. Diese Dokumentation wurde mit Hilfe von Claude (Anthropic) auf Basis der Abgabe erstellt.
